@@ -22,8 +22,5 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repo
 git clone https://github.com/YourUsername/color-switch-multiplier.git
-
-markdown
-Copy code
 2. Open the project in Unity
 3. Build and run the project on your preferred platform
