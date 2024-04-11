@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1638057280244989277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1638057280244989278}
+  - component: {fileID: 1638057280244989279}
+  m_Layer: 0
+  m_Name: In level UI Management
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1638057280244989278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638057280244989277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1638057280244989279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638057280244989277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46a0a6ed7ed43534f98641963d99f9d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelFinishedPanel: {fileID: 0}
+  levelFinishedTMP: {fileID: 0}
+  pauseButton: {fileID: 0}
+  pauseImage: {fileID: 21300000, guid: b272739447f0b534c8b4fcbdadc4cca2, type: 3}
+  unPauseImage: {fileID: 21300000, guid: c00b479e76f8f8749be23fd412e94a3d, type: 3}
+  moveAblePausePanel: {fileID: 0}
+  musicButton: {fileID: 0}
+  SFXButton: {fileID: 0}
+  musicActiveImage: {fileID: 21300000, guid: 57ded7ab267a09741b7bc0572f9089ea, type: 3}
+  musicDeActiveImage: {fileID: 21300000, guid: 33b1200dc838754498c32d6508f161c9, type: 3}
+  SFXActiveImage: {fileID: 21300000, guid: 60d0daa1d033b3e478f9571c15c552c2, type: 3}
+  SFXDeActiveImage: {fileID: 21300000, guid: b292185c0dbaeb747a9e86348e0e5c3e, type: 3}
+  starsParent: {fileID: 0}
+  starAmountCanvas: {fileID: 0}
+  starAmount: {fileID: 0}
